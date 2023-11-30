@@ -1,0 +1,98 @@
+body {
+    background-color: #5B7571;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .header {
+    top: 60px;
+    display: flex;
+    position: flex;
+  }
+  .title_logo {
+    display: flex;
+  }
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute; 
+    left: 120px;
+    top: 15px;
+    font-size: 24px; 
+  }
+  .body_title {
+    color: white;
+    font-weight: 300;
+    position: absolute; 
+    left: 40px;
+    top: 15px;
+    margin-bottom:30px; 
+  }
+  .card_title {
+    color: white;
+    font-weight: 300;
+    position: absolute; 
+    left: 20px;
+    top: 15px;
+  }
+  .logo {
+    /* position: absolute; */
+    left: 20px;
+    top: 15px;
+  }
+  .body {
+    top: 60px;
+    display: flex;
+    position: flex;
+    flex-direction: column;
+  }
+  .cards {
+      position: relative;
+      top: 60px;
+      display: flex;
+      align-items: flex-start;
+  
+  }
+  .container {
+      margin-top:30px; 
+    position: absolute;
+    height: 300px;
+    width: 800px;
+    top: 60px;
+    /* left: calc(50% - 300px); */
+    left: 40px;
+    display: flex;
+  }
+  
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #3ECC5D;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #237535;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  } 
+  .img1 {
+    display: flex;
+    position: absolute;
+    right: 20px;
+  
+  }
+  
